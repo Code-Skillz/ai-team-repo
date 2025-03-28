@@ -1,0 +1,9 @@
+[
+  {
+    "id": "csharp_1",
+    "language": "csharp",
+    "error_type": "NullReferenceException",
+    "input": "debug code:\n\nusing System;\n\nclass Program {\n    static void Main() {\n        string str = null;\n        Console.WriteLine(str.Length);  // Null reference\n    }\n}\n\nerror message:\nNullReferenceException: Object reference not set to an instance of an object",
+    "target": "debugging_hint: You're trying to access a property of a null object. Check if the object is null before using it.\n\nfixed_code:\n\nusing System;\n\nclass Program {\n    static void Main() {\n        string str = null;\n        if (str != null) {  // Check for null\n            Console.WriteLine(str.Length);\n        } else {\n            Console.WriteLine(\"String is null\");\n        }\n    }\n}"
+  }
+]

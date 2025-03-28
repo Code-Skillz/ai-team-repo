@@ -1,0 +1,7 @@
+{
+  "error_type_accuracy": 0.78,
+  "avg_bleu_hint": 0.8366600265340756,
+  "avg_bleu_code": 0.7723284457212329,
+  "helpful_hint_rate": 1.0,
+  "composite_score": 0.6122200088446919
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Recursive Function With Missing Base Case",
+    "code": "def factorial(n):\n    return n * factorial(n-1)\n\nprint(factorial(5))",
+    "errors": [
+      {
+        "line": 2,
+        "type": "logic",
+        "message": "Missing base case in recursive function"
+      }
+    ],
+    "insights": [
+      {
+        "description": "Your recursive function 'factorial' is missing a base case, which will lead to infinite recursion and a stack overflow.",
+        "fix": "def factorial(n):\n    if n == 0 or n == 1:  # Base case\n        return 1\n    return n * factorial(n-1)\n\nprint(factorial(5))"
+      }
+    ]
+  },
+  {
+    "name": "Improper List Comprehension",
+    "code": "numbers = [1, 2, 3, 4, 5]\nsquares = [x**2 for x in numbers if x % 2 == 0 else x]\nprint(squares)",
+    "errors": [
+      {
+        "line": 2,
+        "type": "syntax",
+        "message": "Invalid syntax in list comprehension"
+      }
+    ],
+    "insights": [
+      {
+        "description": "The list comprehension contains a conditional expression (using if-else) which is not correctly formatted. In list comprehensions, the 'if' condition is a filter, not a transformer.",
+        "fix": "numbers = [1, 2, 3, 4, 5]\nsquares = [x**2 if x % 2 == 0 else x for x in numbers]\nprint(squares)"
+      }
+    ]
+  },
+  {
+    "name": "Mutable Default Argument",
+    "code": "def add_item(item, items=[]):\n    items.append(item)\n    return items\n\nprint(add_item('apple'))\nprint(add_item('banana'))\nprint(add_item('cherry'))",
+    "errors": [
+      {
+        "line": 1,
+        "type": "logic",
+        "message": "Mutable default argument"
+      }
+    ],
+    "insights": [
+      {
+        "description": "Using mutable objects like lists as default arguments in Python can lead to unexpected behavior. The default value is evaluated only once when the function is defined, not each time the function is called.",
+        "fix": "def add_item(item, items=None):\n    if items is None:\n        items = []\n    items.append(item)\n    return items\n\nprint(add_item('apple'))\nprint(add_item('banana'))\nprint(add_item('cherry'))"
+      }
+    ]
+  },
+  {
+    "name": "Inefficient String Concatenation",
+    "code": "def build_message(items):\n    message = ''\n    for item in items:\n        message = message + item + ', '\n    return message[:-2]  # Remove last comma and space\n\nprint(build_message(['apple', 'banana', 'cherry']))",
+    "errors": [
+      {
+        "line": 4,
+        "type": "performance",
+        "message": "Inefficient string concatenation in loop"
+      }
+    ],
+    "insights": [
+      {
+        "description": "String concatenation inside loops is inefficient in Python because strings are immutable. Each concatenation creates a new string object.",
+        "fix": "def build_message(items):\n    return ', '.join(items)\n\nprint(build_message(['apple', 'banana', 'cherry']))"
+      }
+    ]
+  },
+  {
+    "name": "Global Variable Misuse",
+    "code": "counter = 0\n\ndef increment_counter():\n    counter += 1\n    return counter\n\nprint(increment_counter())\nprint(increment_counter())",
+    "errors": [
+      {
+        "line": 4,
+        "type": "reference",
+        "message": "Local variable 'counter' referenced before assignment"
+      }
+    ],
+    "insights": [
+      {
+        "description": "When you try to modify a global variable inside a function, you need to use the 'global' keyword to indicate that you want to use the global variable instead of creating a local one.",
+        "fix": "counter = 0\n\ndef increment_counter():\n    global counter\n    counter += 1\n    return counter\n\nprint(increment_counter())\nprint(increment_counter())"
+      }
+    ]
+  }
+]

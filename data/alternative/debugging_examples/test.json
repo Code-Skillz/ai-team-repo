@@ -1,0 +1,9 @@
+[
+  {
+    "id": "go_1",
+    "language": "go",
+    "error_type": "panic",
+    "input": "debug code:\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    arr := []int{1, 2, 3}\n    fmt.Println(arr[5])  // Index out of range\n}\n\nerror message:\npanic: runtime error: index out of range [5] with length 3",
+    "target": "debugging_hint: You're trying to access an array element that doesn't exist. Make sure your index is within the bounds of the array.\n\nfixed_code:\n\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    arr := []int{1, 2, 3}\n    if len(arr) > 5 {  // Check array bounds\n        fmt.Println(arr[5])\n    } else {\n        fmt.Println(\"Index out of range\")\n    }\n}"
+  }
+]

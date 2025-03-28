@@ -1,0 +1,452 @@
+[
+  {
+    "id": 0,
+    "difficulty": "hard",
+    "topic": "dynamic programming",
+    "skill_level": "intermediate",
+    "title": "Regular Expression Matching",
+    "description": "Implement regular expression matching with support for '.' and '*'.",
+    "example": "Input: s = 'aa', p = 'a*'\nOutput: true"
+  },
+  {
+    "id": 1,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "intermediate",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "advanced",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "advanced",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 4,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "advanced",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 5,
+    "difficulty": "hard",
+    "topic": "dynamic programming",
+    "skill_level": "advanced",
+    "title": "Regular Expression Matching",
+    "description": "Implement regular expression matching with support for '.' and '*'.",
+    "example": "Input: s = 'aa', p = 'a*'\nOutput: true"
+  },
+  {
+    "id": 6,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "beginner",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.\n\nHint: Start by breaking down the problem into smaller steps.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 7,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "advanced",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 8,
+    "difficulty": "hard",
+    "topic": "dynamic programming",
+    "skill_level": "intermediate",
+    "title": "Regular Expression Matching",
+    "description": "Implement regular expression matching with support for '.' and '*'.",
+    "example": "Input: s = 'aa', p = 'a*'\nOutput: true"
+  },
+  {
+    "id": 9,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "intermediate",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 10,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "intermediate",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 11,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "intermediate",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 12,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "beginner",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.\n\nHint: Start by breaking down the problem into smaller steps.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 13,
+    "difficulty": "medium",
+    "topic": "dynamic programming",
+    "skill_level": "beginner",
+    "title": "Coin Change Problem",
+    "description": "Given coins of different denominations and a total amount, find the minimum number of coins needed to make up that amount.\n\nHint: Start by breaking down the problem into smaller steps.",
+    "example": "Input: coins = [1, 2, 5], amount = 11\nOutput: 3 (5 + 5 + 1)"
+  },
+  {
+    "id": 14,
+    "difficulty": "medium",
+    "topic": "dynamic programming",
+    "skill_level": "advanced",
+    "title": "Coin Change Problem",
+    "description": "Given coins of different denominations and a total amount, find the minimum number of coins needed to make up that amount.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: coins = [1, 2, 5], amount = 11\nOutput: 3 (5 + 5 + 1)"
+  },
+  {
+    "id": 15,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "advanced",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 16,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "advanced",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 17,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "beginner",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 18,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "intermediate",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 19,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "advanced",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 20,
+    "difficulty": "hard",
+    "topic": "dynamic programming",
+    "skill_level": "advanced",
+    "title": "Regular Expression Matching",
+    "description": "Implement regular expression matching with support for '.' and '*'.",
+    "example": "Input: s = 'aa', p = 'a*'\nOutput: true"
+  },
+  {
+    "id": 21,
+    "difficulty": "hard",
+    "topic": "dynamic programming",
+    "skill_level": "intermediate",
+    "title": "Regular Expression Matching",
+    "description": "Implement regular expression matching with support for '.' and '*'.",
+    "example": "Input: s = 'aa', p = 'a*'\nOutput: true"
+  },
+  {
+    "id": 22,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "advanced",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 23,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "advanced",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 24,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "beginner",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.\n\nHint: Start by breaking down the problem into smaller steps.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 25,
+    "difficulty": "medium",
+    "topic": "dynamic programming",
+    "skill_level": "beginner",
+    "title": "Coin Change Problem",
+    "description": "Given coins of different denominations and a total amount, find the minimum number of coins needed to make up that amount.\n\nHint: Start by breaking down the problem into smaller steps.",
+    "example": "Input: coins = [1, 2, 5], amount = 11\nOutput: 3 (5 + 5 + 1)"
+  },
+  {
+    "id": 26,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "intermediate",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 27,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "intermediate",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 28,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "advanced",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 29,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "beginner",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 30,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "beginner",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 31,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "beginner",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.\n\nHint: Start by breaking down the problem into smaller steps.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 32,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "intermediate",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 33,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "advanced",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 34,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "intermediate",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 35,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "beginner",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.\n\nHint: Start by breaking down the problem into smaller steps.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 36,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "intermediate",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 37,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "advanced",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 38,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "intermediate",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 39,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "advanced",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 40,
+    "difficulty": "medium",
+    "topic": "dynamic programming",
+    "skill_level": "intermediate",
+    "title": "Coin Change Problem",
+    "description": "Given coins of different denominations and a total amount, find the minimum number of coins needed to make up that amount.",
+    "example": "Input: coins = [1, 2, 5], amount = 11\nOutput: 3 (5 + 5 + 1)"
+  },
+  {
+    "id": 41,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "intermediate",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 42,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "advanced",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 43,
+    "difficulty": "hard",
+    "topic": "graphs",
+    "skill_level": "advanced",
+    "title": "Word Ladder",
+    "description": "Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord.",
+    "example": "Input: beginWord = 'hit', endWord = 'cog', wordList = ['hot','dot','dog','lot','log','cog']\nOutput: 5"
+  },
+  {
+    "id": 44,
+    "difficulty": "easy",
+    "topic": "arrays",
+    "skill_level": "intermediate",
+    "title": "Find Maximum Element",
+    "description": "Write a function to find the maximum element in an array.",
+    "example": "Input: [3, 7, 2, 8, 1]\nOutput: 8"
+  },
+  {
+    "id": 45,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "beginner",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  },
+  {
+    "id": 46,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "advanced",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 47,
+    "difficulty": "hard",
+    "topic": "dynamic programming",
+    "skill_level": "intermediate",
+    "title": "Regular Expression Matching",
+    "description": "Implement regular expression matching with support for '.' and '*'.",
+    "example": "Input: s = 'aa', p = 'a*'\nOutput: true"
+  },
+  {
+    "id": 48,
+    "difficulty": "medium",
+    "topic": "trees",
+    "skill_level": "advanced",
+    "title": "Binary Tree Level Order Traversal",
+    "description": "Given a binary tree, return the level order traversal of its nodes' values.\n\nChallenge: Optimize your solution for both time and space complexity.",
+    "example": "Input: [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]"
+  },
+  {
+    "id": 49,
+    "difficulty": "easy",
+    "topic": "strings",
+    "skill_level": "beginner",
+    "title": "Reverse a String",
+    "description": "Write a function to reverse a string.",
+    "example": "Input: 'hello'\nOutput: 'olleh'"
+  }
+]

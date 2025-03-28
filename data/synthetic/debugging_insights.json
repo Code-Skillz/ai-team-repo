@@ -1,0 +1,702 @@
+[
+  {
+    "id": 0,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 1,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 2,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 3,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 4,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 5,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 6,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 7,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 8,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 9,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 10,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 11,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 12,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 13,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 14,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 15,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 16,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 17,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 18,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 19,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 20,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 21,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 22,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 23,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 24,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 25,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 26,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 27,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 28,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 29,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 30,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 31,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 32,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 33,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 34,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 35,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 36,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 37,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 38,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 39,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 40,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 41,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 42,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 43,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 44,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 45,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 46,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 47,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 48,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 49,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 50,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 51,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 52,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 53,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 54,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 55,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 56,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 57,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 58,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 59,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 60,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 61,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 62,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 63,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 64,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 65,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 66,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 67,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 68,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 69,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 70,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 71,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 72,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 73,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 74,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 75,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 76,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 77,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 78,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 79,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 80,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 81,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 82,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 83,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 84,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 85,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 86,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 87,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 88,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 89,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 90,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 91,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 92,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 93,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 94,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 95,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val\n        max_val = arr[i]\n",
+    "error_type": "syntax",
+    "error_description": "Missing colon",
+    "debugging_insight": "No issues found in this code."
+  },
+  {
+    "id": 96,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 97,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1\n",
+    "error_type": "syntax",
+    "error_description": "Missing parenthesis",
+    "debugging_insight": "Check for balanced parentheses. Every opening parenthesis '(' needs a corresponding closing parenthesis ')'."
+  },
+  {
+    "id": 98,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  },
+  {
+    "id": 99,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "error_type": "logical",
+    "error_description": "No error in this code",
+    "debugging_insight": "This code looks correct."
+  }
+]

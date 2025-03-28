@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Missing Closing Parenthesis",
+    "code": "def calculate_sum(a, b):\n    result = (a + b * 2\n    return result\n\nprint(calculate_sum(5, 10))",
+    "errors": [
+      {
+        "line": 2,
+        "type": "syntax",
+        "message": "Missing closing parenthesis ')'"
+      }
+    ]
+  },
+  {
+    "name": "Undefined Variable",
+    "code": "def greet(name):\n    message = 'Hello, ' + user_name + '!'\n    return message\n\nprint(greet('John'))",
+    "errors": [
+      {
+        "line": 2,
+        "type": "reference",
+        "message": "Variable 'user_name' is not defined"
+      }
+    ]
+  },
+  {
+    "name": "Indentation Error",
+    "code": "def find_max(numbers):\n    max_value = numbers[0]\n    for num in numbers:\n    if num > max_value:\n            max_value = num\n    return max_value\n\nprint(find_max([3, 7, 2, 9, 5]))",
+    "errors": [
+      {
+        "line": 4,
+        "type": "indentation",
+        "message": "Expected indented block after 'for' statement"
+      }
+    ]
+  },
+  {
+    "name": "Type Error",
+    "code": "def add_numbers(a, b):\n    return a + b\n\nresult = add_numbers(5, '10')\nprint(result)",
+    "errors": [
+      {
+        "line": 4,
+        "type": "type",
+        "message": "Cannot add int and str: 5 + '10'"
+      }
+    ]
+  },
+  {
+    "name": "Index Error",
+    "code": "def get_element(list_items, index):\n    return list_items[index]\n\nmy_list = [10, 20, 30]\nprint(get_element(my_list, 3))",
+    "errors": [
+      {
+        "line": 5,
+        "type": "index",
+        "message": "List index out of range"
+      }
+    ]
+  }
+]

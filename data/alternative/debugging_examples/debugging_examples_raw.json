@@ -1,0 +1,102 @@
+[
+  {
+    "id": "python_1",
+    "language": "python",
+    "error_type": "IndentationError",
+    "description": "Incorrect indentation in code blocks",
+    "code_with_error": "\ndef calculate_sum(a, b):\n    result = a + b\nprint(result)  # Wrong indentation",
+    "error_message": "IndentationError: expected an indented block",
+    "debugging_hint": "Python uses indentation to define code blocks. Make sure the 'print' statement is indented inside the function.",
+    "fixed_code": "\ndef calculate_sum(a, b):\n    result = a + b\n    print(result)  # Correct indentation"
+  },
+  {
+    "id": "python_2",
+    "language": "python",
+    "error_type": "NameError",
+    "description": "Using a variable before it's defined",
+    "code_with_error": "\nprint(x)  # x is not defined yet\nx = 10",
+    "error_message": "NameError: name 'x' is not defined",
+    "debugging_hint": "Variables must be defined before they are used. Move the definition of 'x' before the print statement.",
+    "fixed_code": "\nx = 10\nprint(x)  # Now x is defined before use"
+  },
+  {
+    "id": "python_3",
+    "language": "python",
+    "error_type": "TypeError",
+    "description": "Operation on incompatible types",
+    "code_with_error": "\nresult = \"Hello\" + 5  # Cannot concatenate string and int\nprint(result)",
+    "error_message": "TypeError: can only concatenate str (not \"int\") to str",
+    "debugging_hint": "You cannot directly add a string and an integer. Convert the integer to a string first using str().",
+    "fixed_code": "\nresult = \"Hello\" + str(5)  # Convert int to string before concatenation\nprint(result)"
+  },
+  {
+    "id": "javascript_1",
+    "language": "javascript",
+    "error_type": "ReferenceError",
+    "description": "Using a variable that doesn't exist",
+    "code_with_error": "\nconsole.log(undefinedVar);  // Variable not defined",
+    "error_message": "ReferenceError: undefinedVar is not defined",
+    "debugging_hint": "The variable 'undefinedVar' was never declared. Declare it before using it.",
+    "fixed_code": "\nlet undefinedVar = 'Now I exist';\nconsole.log(undefinedVar);  // Now it works"
+  },
+  {
+    "id": "javascript_2",
+    "language": "javascript",
+    "error_type": "SyntaxError",
+    "description": "Missing closing bracket",
+    "code_with_error": "\nfunction calculateSum(a, b) {\n    return a + b;\n// Missing closing bracket\nconsole.log(calculateSum(5, 10));",
+    "error_message": "SyntaxError: missing } after function body",
+    "debugging_hint": "The function declaration is missing a closing curly brace. Always ensure opening and closing brackets match.",
+    "fixed_code": "\nfunction calculateSum(a, b) {\n    return a + b;\n}  // Added closing bracket\nconsole.log(calculateSum(5, 10));"
+  },
+  {
+    "id": "java_1",
+    "language": "java",
+    "error_type": "NullPointerException",
+    "description": "Accessing a null object reference",
+    "code_with_error": "\npublic class Main {\n    public static void main(String[] args) {\n        String str = null;\n        System.out.println(str.length());  // Null reference\n    }\n}",
+    "error_message": "NullPointerException: Cannot invoke \"String.length()\" because \"str\" is null",
+    "debugging_hint": "You're trying to call a method on a null object. Always check if an object is null before using its methods.",
+    "fixed_code": "\npublic class Main {\n    public static void main(String[] args) {\n        String str = null;\n        if (str != null) {  // Check for null\n            System.out.println(str.length());\n        } else {\n            System.out.println(\"String is null\");\n        }\n    }\n}"
+  },
+  {
+    "id": "csharp_1",
+    "language": "csharp",
+    "error_type": "NullReferenceException",
+    "description": "Accessing a null object reference",
+    "code_with_error": "\nusing System;\n\nclass Program {\n    static void Main() {\n        string str = null;\n        Console.WriteLine(str.Length);  // Null reference\n    }\n}",
+    "error_message": "NullReferenceException: Object reference not set to an instance of an object",
+    "debugging_hint": "You're trying to access a property of a null object. Check if the object is null before using it.",
+    "fixed_code": "\nusing System;\n\nclass Program {\n    static void Main() {\n        string str = null;\n        if (str != null) {  // Check for null\n            Console.WriteLine(str.Length);\n        } else {\n            Console.WriteLine(\"String is null\");\n        }\n    }\n}"
+  },
+  {
+    "id": "ruby_1",
+    "language": "ruby",
+    "error_type": "NoMethodError",
+    "description": "Calling a method that doesn't exist",
+    "code_with_error": "\nobj = Object.new\nobj.nonexistent_method  # Method doesn't exist",
+    "error_message": "NoMethodError: undefined method `nonexistent_method' for #<Object:0x00007f>",
+    "debugging_hint": "You're calling a method that doesn't exist for this object. Check the object's class and available methods.",
+    "fixed_code": "\nobj = Object.new\n# Define the method or use an existing one\ndef obj.nonexistent_method\n  puts \"Now I exist!\"\nend\nobj.nonexistent_method  # Now it works"
+  },
+  {
+    "id": "go_1",
+    "language": "go",
+    "error_type": "panic",
+    "description": "Index out of range",
+    "code_with_error": "\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    arr := []int{1, 2, 3}\n    fmt.Println(arr[5])  // Index out of range\n}",
+    "error_message": "panic: runtime error: index out of range [5] with length 3",
+    "debugging_hint": "You're trying to access an array element that doesn't exist. Make sure your index is within the bounds of the array.",
+    "fixed_code": "\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    arr := []int{1, 2, 3}\n    if len(arr) > 5 {  // Check array bounds\n        fmt.Println(arr[5])\n    } else {\n        fmt.Println(\"Index out of range\")\n    }\n}"
+  },
+  {
+    "id": "php_1",
+    "language": "php",
+    "error_type": "Undefined variable",
+    "description": "Using an undefined variable",
+    "code_with_error": "\n<?php\necho $undefinedVar;  // Variable not defined\n?>",
+    "error_message": "Notice: Undefined variable: undefinedVar",
+    "debugging_hint": "You're using a variable that hasn't been defined. Initialize the variable before using it.",
+    "fixed_code": "\n<?php\n$undefinedVar = \"Now I'm defined\";\necho $undefinedVar;  // Now it works\n?>"
+  }
+]

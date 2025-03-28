@@ -1,0 +1,58 @@
+[
+  {
+    "id": "php_1",
+    "language": "php",
+    "error_type": "Undefined variable",
+    "input": "debug code:\n\n<?php\necho $undefinedVar;  // Variable not defined\n?>\n\nerror message:\nNotice: Undefined variable: undefinedVar",
+    "target": "debugging_hint: You're using a variable that hasn't been defined. Initialize the variable before using it.\n\nfixed_code:\n\n<?php\n$undefinedVar = \"Now I'm defined\";\necho $undefinedVar;  // Now it works\n?>"
+  },
+  {
+    "id": "javascript_1",
+    "language": "javascript",
+    "error_type": "ReferenceError",
+    "input": "debug code:\n\nconsole.log(undefinedVar);  // Variable not defined\n\nerror message:\nReferenceError: undefinedVar is not defined",
+    "target": "debugging_hint: The variable 'undefinedVar' was never declared. Declare it before using it.\n\nfixed_code:\n\nlet undefinedVar = 'Now I exist';\nconsole.log(undefinedVar);  // Now it works"
+  },
+  {
+    "id": "java_1",
+    "language": "java",
+    "error_type": "NullPointerException",
+    "input": "debug code:\n\npublic class Main {\n    public static void main(String[] args) {\n        String str = null;\n        System.out.println(str.length());  // Null reference\n    }\n}\n\nerror message:\nNullPointerException: Cannot invoke \"String.length()\" because \"str\" is null",
+    "target": "debugging_hint: You're trying to call a method on a null object. Always check if an object is null before using its methods.\n\nfixed_code:\n\npublic class Main {\n    public static void main(String[] args) {\n        String str = null;\n        if (str != null) {  // Check for null\n            System.out.println(str.length());\n        } else {\n            System.out.println(\"String is null\");\n        }\n    }\n}"
+  },
+  {
+    "id": "javascript_2",
+    "language": "javascript",
+    "error_type": "SyntaxError",
+    "input": "debug code:\n\nfunction calculateSum(a, b) {\n    return a + b;\n// Missing closing bracket\nconsole.log(calculateSum(5, 10));\n\nerror message:\nSyntaxError: missing } after function body",
+    "target": "debugging_hint: The function declaration is missing a closing curly brace. Always ensure opening and closing brackets match.\n\nfixed_code:\n\nfunction calculateSum(a, b) {\n    return a + b;\n}  // Added closing bracket\nconsole.log(calculateSum(5, 10));"
+  },
+  {
+    "id": "ruby_1",
+    "language": "ruby",
+    "error_type": "NoMethodError",
+    "input": "debug code:\n\nobj = Object.new\nobj.nonexistent_method  # Method doesn't exist\n\nerror message:\nNoMethodError: undefined method `nonexistent_method' for #<Object:0x00007f>",
+    "target": "debugging_hint: You're calling a method that doesn't exist for this object. Check the object's class and available methods.\n\nfixed_code:\n\nobj = Object.new\n# Define the method or use an existing one\ndef obj.nonexistent_method\n  puts \"Now I exist!\"\nend\nobj.nonexistent_method  # Now it works"
+  },
+  {
+    "id": "python_1",
+    "language": "python",
+    "error_type": "IndentationError",
+    "input": "debug code:\n\ndef calculate_sum(a, b):\n    result = a + b\nprint(result)  # Wrong indentation\n\nerror message:\nIndentationError: expected an indented block",
+    "target": "debugging_hint: Python uses indentation to define code blocks. Make sure the 'print' statement is indented inside the function.\n\nfixed_code:\n\ndef calculate_sum(a, b):\n    result = a + b\n    print(result)  # Correct indentation"
+  },
+  {
+    "id": "python_2",
+    "language": "python",
+    "error_type": "NameError",
+    "input": "debug code:\n\nprint(x)  # x is not defined yet\nx = 10\n\nerror message:\nNameError: name 'x' is not defined",
+    "target": "debugging_hint: Variables must be defined before they are used. Move the definition of 'x' before the print statement.\n\nfixed_code:\n\nx = 10\nprint(x)  # Now x is defined before use"
+  },
+  {
+    "id": "python_3",
+    "language": "python",
+    "error_type": "TypeError",
+    "input": "debug code:\n\nresult = \"Hello\" + 5  # Cannot concatenate string and int\nprint(result)\n\nerror message:\nTypeError: can only concatenate str (not \"int\") to str",
+    "target": "debugging_hint: You cannot directly add a string and an integer. Convert the integer to a string first using str().\n\nfixed_code:\n\nresult = \"Hello\" + str(5)  # Convert int to string before concatenation\nprint(result)"
+  }
+]

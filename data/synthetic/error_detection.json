@@ -1,0 +1,502 @@
+[
+  {
+    "id": 0,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 1
+  },
+  {
+    "id": 1,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 2,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 3,
+    "code": "class Node:\n    def __jnit__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 4,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 5,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 6,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 7,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 8,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 9,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 10,
+    "code": "def factorial(n):\n    if n != 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 1
+  },
+  {
+    "id": 11,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 12,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 13,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 14,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 15,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 16,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 17,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 18,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 19,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 20,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n\n",
+    "has_error": 1
+  },
+  {
+    "id": 21,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 22,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 23,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 24,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 25,
+    "code": "def binary_search(arr, target:\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 26,
+    "code": "def factorjal(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 1
+  },
+  {
+    "id": 27,
+    "code": "def binary_search(arr, target:\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 28,
+    "code": "for i in range(len(arr):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 29,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 30,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 31,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 32,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 33,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 34,
+    "code": "def factorial(n:\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 1
+  },
+  {
+    "id": 35,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 36,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 37,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 38,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 39,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 40,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1)\n",
+    "has_error": 1
+  },
+  {
+    "id": 41,
+    "code": "for i in range(len(arr):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 42,
+    "code": "def binary_search(arr, target:\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 43,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 44,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 45,
+    "code": "def binary_search(arr, target:\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 46,
+    "code": "def binary_search(arr, target:\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 47,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 48,
+    "code": "def factorjal(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 1
+  },
+  {
+    "id": 49,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 50,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 51,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 52,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 53,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 54,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 55,
+    "code": "class Node:\n    def __init__(self, value:\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 56,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 57,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 1
+  },
+  {
+    "id": 58,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 59,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 60,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 61,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 62,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 63,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 64,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 65,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 66,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 67,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 68,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 69,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] != target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 70,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 71,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 72,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 73,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n\n",
+    "has_error": 1
+  },
+  {
+    "id": 74,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 75,
+    "code": "def binary_search(arr, target:\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 76,
+    "code": "class Node:\n    def __init__(self, value:\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 77,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 78,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 79,
+    "code": "def binary_search(arr, target:\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 80,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 81,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 82,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 83,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 84,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 85,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 86,
+    "code": "for j in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 87,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 88,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 89,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 90,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 1
+  },
+  {
+    "id": 91,
+    "code": "class Node:\n    def __init__(self, value):\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 0
+  },
+  {
+    "id": 92,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1)\n",
+    "has_error": 1
+  },
+  {
+    "id": 93,
+    "code": "for i in range(len(arr)):\n    if arr[i] > max_val:\n        max_val = arr[i]\n",
+    "has_error": 0
+  },
+  {
+    "id": 94,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 0
+  },
+  {
+    "id": 95,
+    "code": "def bjnary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 96,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  },
+  {
+    "id": 97,
+    "code": "def binary_search(arr, target):\n    left = 0\n    right = len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1\n",
+    "has_error": 1
+  },
+  {
+    "id": 98,
+    "code": "class Node:\n    def __init__(self, value:\n        self.value = value\n        self.next = None\n}\n",
+    "has_error": 1
+  },
+  {
+    "id": 99,
+    "code": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n-1);\n",
+    "has_error": 0
+  }
+]
